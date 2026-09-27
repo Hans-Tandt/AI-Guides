@@ -8,3 +8,6 @@ Thumbs.db
 desktop.ini
 .vscode/
 .claude/settings.local.json
+
+# Build scripts: local only (they point at folders on this PC)
+tools/

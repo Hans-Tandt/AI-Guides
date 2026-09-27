@@ -82,9 +82,10 @@
 
 <script>
 const GUIDES = [
-  { file: "0-what-an-ai-is", step: "0", pages: 4 },
+  { file: "start-here",      step: "▶", pages: 2 },
   { file: "1-level-zero",    step: "1", pages: { en: 25, fr: 26, nl: 26 } },
-  { file: "2-level-one",     step: "2", pages: 20 },
+  { file: "0-what-an-ai-is", step: "2", pages: { en: 3, fr: 4, nl: 4 } },
+  { file: "2-level-one",     step: "3", pages: 20 },
   { file: "3-ai-data-rules", step: "+", pages: 1, extra: true },
 ];
 
@@ -94,14 +95,15 @@ const T = {
     lead: "Free, plain-language guides to AI and Claude, from zero to your first real task.",
     why: "I made these guides from my own experience, including my mistakes, so you don't have to make the same ones.",
     guides: [
-      ["What an AI actually is", "Before the how-to: what this technology really is, and why its character matters."],
+      ["Start here · never used an AI?", "Your first conversation in ten minutes, on the free plan. Plus the eight words you will meet and three habits for day one."],
       ["Level Zero · Beginner", "Everything worth knowing before you start: Chat, Cowork, files, the sandbox, limits. Ends with your first real task."],
+      ["What an AI actually is", "After your first week: what this technology really is, and why its character matters."],
       ["Level One", "From running tasks to building real things: prompting, projects, skills, connectors, data & GDPR, Git, code and agents."],
       ["AI data rules · one page", "The traffic-light rule: what you may and may not put into an AI. Print it and keep it next to your screen."],
     ],
     pages: n => n === 1 ? "1 page · PDF" : `${n} pages · PDF`,
     download: "Download",
-    note: 'Read them in this order. AI tools change fast: these guides describe Claude as of August 2026. If a screen or menu looks different, trust the app. Editable Word versions are on <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
+    note: 'Read them in this order. AI tools change fast: these guides describe Claude as of August–September 2026. If a screen or menu looks different, trust the app. Editable Word versions are on <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
     licence: "© Hans Tandt · Free to share and adapt under CC BY 4.0, as long as you name the author.",
   },
   fr: {
@@ -109,14 +111,15 @@ const T = {
     lead: "Des guides gratuits et en langage simple sur l'IA et Claude, de zéro à votre première vraie tâche.",
     why: "J'ai écrit ces guides à partir de ma propre expérience, erreurs comprises, pour que vous ne fassiez pas les mêmes.",
     guides: [
-      ["Ce qu'est vraiment une IA", "Avant le mode d'emploi : ce qu'est vraiment cette technologie, et pourquoi son caractère compte."],
+      ["Commencez ici · jamais utilisé d'IA ?", "Votre première conversation en dix minutes, avec le forfait gratuit. Plus les huit mots à connaître et trois habitudes dès le premier jour."],
       ["Niveau Zéro · Débutant", "Tout ce qu'il faut savoir avant de commencer : Chat, Cowork, fichiers, sandbox, limites. Jusqu'à votre première vraie tâche."],
+      ["Ce qu'est vraiment une IA", "Après votre première semaine : ce qu'est vraiment cette technologie, et pourquoi son caractère compte."],
       ["Niveau Un", "De l'exécution de tâches à la construction de vraies choses : prompting, projets, skills, connecteurs, données & RGPD, Git, code et agents."],
       ["Règles de données IA · une page", "La règle des feux : ce que vous pouvez mettre dans une IA, et ce que vous ne pouvez pas. À imprimer et garder près de l'écran."],
     ],
     pages: n => n === 1 ? "1 page · PDF" : `${n} pages · PDF`,
     download: "Télécharger",
-    note: 'Lisez-les dans cet ordre. Les outils d\'IA évoluent vite : ces guides décrivent Claude en août 2026. Si un écran ou un menu est différent, fiez-vous à l\'application. Les versions Word modifiables sont sur <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
+    note: 'Lisez-les dans cet ordre. Les outils d\'IA évoluent vite : ces guides décrivent Claude en août–septembre 2026. Si un écran ou un menu est différent, fiez-vous à l\'application. Les versions Word modifiables sont sur <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
     licence: "© Hans Tandt · Libre de partager et d'adapter sous licence CC BY 4.0, en citant l'auteur.",
   },
   nl: {
@@ -124,14 +127,15 @@ const T = {
     lead: "Gratis gidsen in eenvoudige taal over AI en Claude, van nul tot je eerste echte taak.",
     why: "Ik schreef deze gidsen vanuit mijn eigen ervaring, fouten inbegrepen, zodat jij ze niet opnieuw hoeft te maken.",
     guides: [
-      ["Wat een AI echt is", "Vóór de handleiding: wat deze technologie echt is, en waarom haar karakter ertoe doet."],
+      ["Begin hier · nog nooit een AI gebruikt?", "Je eerste gesprek in tien minuten, met het gratis abonnement. Plus de acht woorden die je tegenkomt en drie gewoonten vanaf dag één."],
       ["Niveau Nul · Beginner", "Alles wat je moet weten voor je begint: Chat, Cowork, bestanden, de sandbox, limieten. Tot je eerste echte taak."],
+      ["Wat een AI echt is", "Na je eerste week: wat deze technologie echt is, en waarom haar karakter ertoe doet."],
       ["Niveau Eén", "Van taken uitvoeren naar echte dingen bouwen: prompting, projecten, skills, connectoren, data & AVG, Git, code en agents."],
       ["AI-dataregels · één pagina", "De verkeerslichtregel: wat je wel en niet in een AI mag zetten. Print hem en hou hem naast je scherm."],
     ],
     pages: n => n === 1 ? "1 pagina · PDF" : `${n} pagina's · PDF`,
     download: "Downloaden",
-    note: 'Lees ze in deze volgorde. AI-tools veranderen snel: deze gidsen beschrijven Claude zoals in augustus 2026. Ziet een scherm of menu er anders uit, vertrouw dan de app. Bewerkbare Word-versies staan op <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
+    note: 'Lees ze in deze volgorde. AI-tools veranderen snel: deze gidsen beschrijven Claude zoals in augustus–september 2026. Ziet een scherm of menu er anders uit, vertrouw dan de app. Bewerkbare Word-versies staan op <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
     licence: "© Hans Tandt · Vrij te delen en aan te passen onder CC BY 4.0, met vermelding van de auteur.",
   },
 };

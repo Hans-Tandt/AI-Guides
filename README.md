@@ -26,14 +26,15 @@ Read them in this order:
 
 | # | Guide | Pages | What you learn | EN | FR | NL |
 |---|---|---|---|---|---|---|
-| 0 | **What an AI actually is** | 4 | What this technology really is, and why its character matters | [PDF](pdf/en/0-what-an-ai-is.pdf) | [PDF](pdf/fr/0-what-an-ai-is.pdf) | [PDF](pdf/nl/0-what-an-ai-is.pdf) |
+| ▶ | **Start here** · never used an AI? | 2 | Your first conversation on the free plan, 8 key words, 3 habits | [PDF](pdf/en/start-here.pdf) | [PDF](pdf/fr/start-here.pdf) | [PDF](pdf/nl/start-here.pdf) |
 | 1 | **Level Zero · Beginner** | 25 | Chat, Cowork, files, the sandbox and limits, up to your first real task | [PDF](pdf/en/1-level-zero.pdf) | [PDF](pdf/fr/1-level-zero.pdf) | [PDF](pdf/nl/1-level-zero.pdf) |
-| 2 | **Level One** | 20 | Prompting, projects, skills, connectors, data & GDPR, Git, code and agents | [PDF](pdf/en/2-level-one.pdf) | [PDF](pdf/fr/2-level-one.pdf) | [PDF](pdf/nl/2-level-one.pdf) |
+| 2 | **What an AI actually is** | 3–4 | After your first week: what this technology really is, and why its character matters | [PDF](pdf/en/0-what-an-ai-is.pdf) | [PDF](pdf/fr/0-what-an-ai-is.pdf) | [PDF](pdf/nl/0-what-an-ai-is.pdf) |
+| 3 | **Level One** | 20 | Prompting, projects, skills, connectors, data & GDPR, Git, code and agents | [PDF](pdf/en/2-level-one.pdf) | [PDF](pdf/fr/2-level-one.pdf) | [PDF](pdf/nl/2-level-one.pdf) |
 | + | **AI data rules** | 1 | The traffic-light rule: what you may and may not put into an AI | [PDF](pdf/en/3-ai-data-rules.pdf) | [PDF](pdf/fr/3-ai-data-rules.pdf) | [PDF](pdf/nl/3-ai-data-rules.pdf) |
 
 ## Good to know
 
-- **AI tools change fast.** These guides describe Claude as of **August 2026**. If a screen,
+- **AI tools change fast.** These guides describe Claude as of **August–September 2026**. If a screen,
   menu or model name looks different, trust the app. The habits and the way of working
   stay valid.
 - **Editable versions.** The Word files are in [`source/`](source/), one folder per language.
@@ -47,7 +48,6 @@ Read them in this order:
 | `pdf/en`, `pdf/fr`, `pdf/nl` | The guides as PDF, ready to read or print |
 | `source/en`, `source/fr`, `source/nl` | The same guides as editable Word files |
 | `index.html` | The website at hans-tandt.github.io/AI-Guides |
-
 ## Licence
 
 © Hans Tandt. These guides are licensed under

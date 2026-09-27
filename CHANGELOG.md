@@ -2,6 +2,17 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-27 · Beginner update
+
+- **New: Start here** (EN / FR / NL, 2 pages) for people who have never used an AI:
+  a first conversation on the free plan, eight key words and three habits for day one.
+- **Level Zero 3.3:** every technical word explained where it first appears; the glossary
+  grows from 16 to 24 words in three themes; a free-plan route in Chapter 1; personal rules
+  of thumb marked as experience; an empty page after the contents removed.
+- **What an AI actually is 1.3:** the text now flows (no near-empty page).
+- **New reading order:** Start here → Level Zero → What an AI actually is → Level One.
+- All tables of contents filled in; internal file references removed.
+
 ## 2026-09-27 · First public release
 
 The core set, in English, French and Dutch.
