@@ -27,8 +27,8 @@ Read them in this order:
 | # | Guide | Pages | What you learn | EN | FR | NL |
 |---|---|---|---|---|---|---|
 | 0 | **What an AI actually is** | 4 | What this technology really is, and why its character matters | [PDF](pdf/en/0-what-an-ai-is.pdf) | [PDF](pdf/fr/0-what-an-ai-is.pdf) | [PDF](pdf/nl/0-what-an-ai-is.pdf) |
-| 1 | **Level Zero · Beginner** | 24 | Chat, Cowork, files, the sandbox and limits, up to your first real task | [PDF](pdf/en/1-level-zero.pdf) | [PDF](pdf/fr/1-level-zero.pdf) | [PDF](pdf/nl/1-level-zero.pdf) |
-| 2 | **Level One** | 19 | Prompting, projects, skills, connectors, data & GDPR, Git, code and agents | [PDF](pdf/en/2-level-one.pdf) | [PDF](pdf/fr/2-level-one.pdf) | [PDF](pdf/nl/2-level-one.pdf) |
+| 1 | **Level Zero · Beginner** | 25 | Chat, Cowork, files, the sandbox and limits, up to your first real task | [PDF](pdf/en/1-level-zero.pdf) | [PDF](pdf/fr/1-level-zero.pdf) | [PDF](pdf/nl/1-level-zero.pdf) |
+| 2 | **Level One** | 20 | Prompting, projects, skills, connectors, data & GDPR, Git, code and agents | [PDF](pdf/en/2-level-one.pdf) | [PDF](pdf/fr/2-level-one.pdf) | [PDF](pdf/nl/2-level-one.pdf) |
 | + | **AI data rules** | 1 | The traffic-light rule: what you may and may not put into an AI | [PDF](pdf/en/3-ai-data-rules.pdf) | [PDF](pdf/fr/3-ai-data-rules.pdf) | [PDF](pdf/nl/3-ai-data-rules.pdf) |
 
 ## Good to know
