@@ -2,6 +2,15 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-27 · Level One 2.2
+
+- Every technical word explained where it first appears (first-party / third-party, read-only,
+  data-protection officer, anonymise, retention, research preview, mockups, Raspberry Pi,
+  SharePoint, README and more).
+- Glossary grows from 11 to 28 words, in four themes.
+- New "Which plan do you need?" note and a pointer to Start here.
+- Personal rules of thumb marked as experience.
+
 ## 2026-09-27 · Beginner update
 
 - **New: Start here** (EN / FR / NL, 2 pages) for people who have never used an AI:
