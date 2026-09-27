@@ -1,0 +1,10 @@
+# Word lock files and temporary files
+~$*
+*.tmp
+*.bak
+
+# Editors / OS
+Thumbs.db
+desktop.ini
+.vscode/
+.claude/settings.local.json

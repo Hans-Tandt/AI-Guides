@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Guides · Hans Tandt</title>
+<meta name="description" content="Free, plain-language guides to AI and Claude, from zero to your first real task. In English, French and Dutch.">
+<meta property="og:title" content="AI Guides · Hans Tandt">
+<meta property="og:description" content="Free, plain-language guides to AI and Claude, from zero to your first real task. EN · FR · NL.">
+<meta property="og:image" content="https://hans-tandt.github.io/AI-Guides/assets/social.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1d2433; --muted: #5b6475;
+    --line: #e2e6ec; --accent: #1f3a5f; --gold: #b8892b; --chip: #eef2f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1117; --card: #181b23; --text: #eef0f4; --muted: #a0a6b4;
+      --line: #2a2f3a; --accent: #8fb4e8; --gold: #e0b35a; --chip: #222733;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.55 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+  main { max-width: 880px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .brand { font-weight: 700; color: var(--accent); letter-spacing: .3px; }
+  .langs button { border: 1px solid var(--line); background: var(--card); color: var(--muted);
+                  padding: 6px 12px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 14px; }
+  .langs button.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.15; margin: 40px 0 12px; }
+  .lead { color: var(--muted); font-size: 19px; margin: 0 0 8px; }
+  .why { border-left: 4px solid var(--gold); padding: 4px 0 4px 16px; margin: 28px 0 36px; color: var(--muted); }
+  .path { display: grid; gap: 14px; }
+  .card { display: grid; grid-template-columns: 56px 1fr auto; gap: 16px; align-items: center;
+          background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .step { width: 56px; height: 56px; border-radius: 12px; display: grid; place-items: center;
+          background: var(--chip); color: var(--accent); font-weight: 700; font-size: 20px; }
+  .card > div { min-width: 0; overflow-wrap: anywhere; }
+  .card h2 { font-size: 19px; margin: 0 0 2px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .meta { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  .dl { text-decoration: none; background: var(--accent); color: var(--bg); padding: 10px 16px;
+        border-radius: 10px; font-weight: 600; font-size: 15px; white-space: nowrap; }
+  .dl:hover { opacity: .9; }
+  .extra .step { color: var(--gold); }
+  .note { margin-top: 36px; font-size: 14px; color: var(--muted); }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+  footer a, .note a { color: var(--accent); }
+  @media (max-width: 560px) {
+    .card { grid-template-columns: 44px 1fr; }
+    .step { width: 44px; height: 44px; font-size: 17px; }
+    .dl { grid-column: 1 / -1; text-align: center; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">AI Guides · Hans Tandt</div>
+    <div class="langs" role="group" aria-label="Language">
+      <button data-l="en">EN</button> <button data-l="fr">FR</button> <button data-l="nl">NL</button>
+    </div>
+  </header>
+
+  <h1 data-t="title"></h1>
+  <p class="lead" data-t="lead"></p>
+  <p class="why" data-t="why"></p>
+
+  <section class="path" id="path"></section>
+
+  <p class="note" data-t="note"></p>
+
+  <footer>
+    <span data-t="licence"></span><br>
+    <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/hans-tandt">LinkedIn</a> ·
+    <a href="https://x.com/HansTandt">X</a>
+  </footer>
+</main>
+
+<script>
+const GUIDES = [
+  { file: "0-what-an-ai-is", step: "0", pages: 4 },
+  { file: "1-level-zero",    step: "1", pages: { en: 24, fr: 25, nl: 25 } },
+  { file: "2-level-one",     step: "2", pages: 19 },
+  { file: "3-ai-data-rules", step: "+", pages: 1, extra: true },
+];
+
+const T = {
+  en: {
+    title: "Learn AI the practical way",
+    lead: "Free, plain-language guides to AI and Claude, from zero to your first real task.",
+    why: "I made these guides from my own experience, including my mistakes, so you don't have to make the same ones.",
+    guides: [
+      ["What an AI actually is", "Before the how-to: what this technology really is, and why its character matters."],
+      ["Level Zero · Beginner", "Everything worth knowing before you start: Chat, Cowork, files, the sandbox, limits. Ends with your first real task."],
+      ["Level One", "From running tasks to building real things: prompting, projects, skills, connectors, data & GDPR, Git, code and agents."],
+      ["AI data rules · one page", "The traffic-light rule: what you may and may not put into an AI. Print it and keep it next to your screen."],
+    ],
+    pages: n => n === 1 ? "1 page · PDF" : `${n} pages · PDF`,
+    download: "Download",
+    note: 'Read them in this order. AI tools change fast: these guides describe Claude as of August 2026. If a screen or menu looks different, trust the app. Editable Word versions are on <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
+    licence: "© Hans Tandt · Free to share and adapt under CC BY 4.0, as long as you name the author.",
+  },
+  fr: {
+    title: "Apprendre l'IA, concrètement",
+    lead: "Des guides gratuits et en langage simple sur l'IA et Claude, de zéro à votre première vraie tâche.",
+    why: "J'ai écrit ces guides à partir de ma propre expérience, erreurs comprises, pour que vous ne fassiez pas les mêmes.",
+    guides: [
+      ["Ce qu'est vraiment une IA", "Avant le mode d'emploi : ce qu'est vraiment cette technologie, et pourquoi son caractère compte."],
+      ["Niveau Zéro · Débutant", "Tout ce qu'il faut savoir avant de commencer : Chat, Cowork, fichiers, sandbox, limites. Jusqu'à votre première vraie tâche."],
+      ["Niveau Un", "De l'exécution de tâches à la construction de vraies choses : prompting, projets, skills, connecteurs, données & RGPD, Git, code et agents."],
+      ["Règles de données IA · une page", "La règle des feux : ce que vous pouvez mettre dans une IA, et ce que vous ne pouvez pas. À imprimer et garder près de l'écran."],
+    ],
+    pages: n => n === 1 ? "1 page · PDF" : `${n} pages · PDF`,
+    download: "Télécharger",
+    note: 'Lisez-les dans cet ordre. Les outils d\'IA évoluent vite : ces guides décrivent Claude en août 2026. Si un écran ou un menu est différent, fiez-vous à l\'application. Les versions Word modifiables sont sur <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
+    licence: "© Hans Tandt · Libre de partager et d'adapter sous licence CC BY 4.0, en citant l'auteur.",
+  },
+  nl: {
+    title: "AI leren, praktisch",
+    lead: "Gratis gidsen in eenvoudige taal over AI en Claude, van nul tot je eerste echte taak.",
+    why: "Ik schreef deze gidsen vanuit mijn eigen ervaring, fouten inbegrepen, zodat jij ze niet opnieuw hoeft te maken.",
+    guides: [
+      ["Wat een AI echt is", "Vóór de handleiding: wat deze technologie echt is, en waarom haar karakter ertoe doet."],
+      ["Niveau Nul · Beginner", "Alles wat je moet weten voor je begint: Chat, Cowork, bestanden, de sandbox, limieten. Tot je eerste echte taak."],
+      ["Niveau Eén", "Van taken uitvoeren naar echte dingen bouwen: prompting, projecten, skills, connectoren, data & AVG, Git, code en agents."],
+      ["AI-dataregels · één pagina", "De verkeerslichtregel: wat je wel en niet in een AI mag zetten. Print hem en hou hem naast je scherm."],
+    ],
+    pages: n => n === 1 ? "1 pagina · PDF" : `${n} pagina's · PDF`,
+    download: "Downloaden",
+    note: 'Lees ze in deze volgorde. AI-tools veranderen snel: deze gidsen beschrijven Claude zoals in augustus 2026. Ziet een scherm of menu er anders uit, vertrouw dan de app. Bewerkbare Word-versies staan op <a href="https://github.com/Hans-Tandt/AI-Guides">GitHub</a>.',
+    licence: "© Hans Tandt · Vrij te delen en aan te passen onder CC BY 4.0, met vermelding van de auteur.",
+  },
+};
+
+function render(lang) {
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-t]").forEach(el => { el.innerHTML = t[el.dataset.t]; });
+  document.querySelectorAll(".langs button").forEach(b => b.classList.toggle("on", b.dataset.l === lang));
+  document.getElementById("path").innerHTML = GUIDES.map((g, i) => {
+    const n = typeof g.pages === "object" ? g.pages[lang] : g.pages;
+    return `<article class="card${g.extra ? " extra" : ""}">
+      <div class="step">${g.step}</div>
+      <div><h2>${t.guides[i][0]}</h2><p>${t.guides[i][1]}</p><div class="meta">${t.pages(n)}</div></div>
+      <a class="dl" href="pdf/${lang}/${g.file}.pdf">${t.download}</a>
+    </article>`;
+  }).join("");
+  try { localStorage.setItem("lang", lang); } catch (e) {}
+}
+
+let start = "en";
+try { start = localStorage.getItem("lang") || ""; } catch (e) {}
+if (!T[start]) {
+  const nav = (navigator.language || "en").slice(0, 2);
+  start = T[nav] ? nav : "en";
+}
+document.querySelectorAll(".langs button").forEach(b => b.addEventListener("click", () => render(b.dataset.l)));
+render(start);
+</script>
+</body>
+</html>
