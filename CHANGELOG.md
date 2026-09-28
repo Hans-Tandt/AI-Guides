@@ -2,6 +2,15 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-28 · Corrections after a fact check
+
+In Start here, Level Zero and Level One (all four languages):
+- **Tokens:** on the newest models 1 million tokens is roughly 555,000 words (about 750,000 on older
+  models), so a token is about half to three-quarters of a word.
+- **Skills** are now managed under **Customize → Skills** (was: Settings → Capabilities).
+- **New note:** Chat and Cowork are merging into one Claude app (from late September 2026, first on
+  Pro and Max). A full rewrite follows once the change has reached all plans.
+
 ## 2026-09-28 · Two new guides
 
 - **Choosing the right Claude model** (EN / FR / NL / DE): which model for which job, what a token is,
