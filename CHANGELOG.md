@@ -2,6 +2,14 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-28 · German
+
+- All five guides now in **German**: Hier beginnen, Stufe Null, Was eine KI wirklich ist,
+  Stufe Eins, KI-Datenregeln. Formal "Sie" in the text; the prompts to copy use "du".
+- Stufe Null: chapters flow on instead of each starting a new page (German is ~20% longer;
+  this avoids near-empty pages).
+- Website: new DE button. Start here (EN / FR / NL) now mentions German.
+
 ## 2026-09-27 · Level One 2.2
 
 - Every technical word explained where it first appears (first-party / third-party, read-only,
