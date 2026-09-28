@@ -2,6 +2,12 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-28 · Current model names in Level Zero
+
+- Level Zero (EN / FR / NL / DE): model table now Opus (5.5), Sonnet (5), Haiku (4.5); the snapshot
+  box and the "trust the picker" box name the current releases (Opus 5.5, Sonnet 5, Haiku 4.5,
+  Fable 5.1), checked on 28 September 2026.
+
 ## 2026-09-28 · Corrections after a fact check
 
 In Start here, Level Zero and Level One (all four languages):
