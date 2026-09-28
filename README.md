@@ -31,6 +31,8 @@ Read them in this order:
 | 2 | **What an AI actually is** | 3–4 | After your first week: what this technology really is, and why its character matters | [PDF](pdf/en/0-what-an-ai-is.pdf) | [PDF](pdf/fr/0-what-an-ai-is.pdf) | [PDF](pdf/nl/0-what-an-ai-is.pdf) | [PDF](pdf/de/0-what-an-ai-is.pdf) |
 | 3 | **Level One** | 20–23 | Prompting, projects, skills, connectors, data & GDPR, Git, code and agents | [PDF](pdf/en/2-level-one.pdf) | [PDF](pdf/fr/2-level-one.pdf) | [PDF](pdf/nl/2-level-one.pdf) | [PDF](pdf/de/2-level-one.pdf) |
 | + | **AI data rules** | 1 | The traffic-light rule: what you may and may not put into an AI | [PDF](pdf/en/3-ai-data-rules.pdf) | [PDF](pdf/fr/3-ai-data-rules.pdf) | [PDF](pdf/nl/3-ai-data-rules.pdf) | [PDF](pdf/de/3-ai-data-rules.pdf) |
+| + | **Choosing the right Claude model** | 8–9 | Haiku, Sonnet, Opus or Fable; tokens, costs, plans, usage limits, and the agent-cost trap | [PDF](pdf/en/4-choosing-a-model.pdf) | [PDF](pdf/fr/4-choosing-a-model.pdf) | [PDF](pdf/nl/4-choosing-a-model.pdf) | [PDF](pdf/de/4-choosing-a-model.pdf) |
+| + | **Claude Skills** | 5 | What a skill is, installing and updating one, writing your own | [PDF](pdf/en/5-claude-skills.pdf) | [PDF](pdf/fr/5-claude-skills.pdf) | [PDF](pdf/nl/5-claude-skills.pdf) | [PDF](pdf/de/5-claude-skills.pdf) |
 
 ## Good to know
 

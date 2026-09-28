@@ -2,6 +2,15 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-28 · Two new guides
+
+- **Choosing the right Claude model** (EN / FR / NL / DE): which model for which job, what a token is,
+  costs, plans and usage limits, and why self-running agents can surprise you. Facts checked on
+  28 September 2026 against claude.com/pricing and Anthropic's model documentation (Opus 5.5,
+  Fable on Pro, current prices, ~555,000 words per million tokens on the newest models).
+- **Claude Skills** (EN / FR / NL / DE): rewritten as a general guide. Current install route
+  (Customize → Skills; account skills also load in Claude Code), updating, examples, writing your own.
+
 ## 2026-09-28 · German
 
 - All five guides now in **German**: Hier beginnen, Stufe Null, Was eine KI wirklich ist,
