@@ -13,4 +13,4 @@ desktop.ini
 tools/
 
 # Mascot working files (Grok originals, layers, tests): local only
-mascot/
+/mascot/
