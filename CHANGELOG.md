@@ -2,6 +2,14 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-29 · Level Zero 3.4: the new Claude app
+
+- Level Zero rewritten for the new app, checked in the app on 29 September 2026 (EN / FR / NL / DE):
+  Chat and Cowork in one message box with a Chat | Cowork switch; Effort (Low, Medium, High, Extra,
+  Max) instead of Extended Thinking; Web search as a tick in the + menu; Scheduled in the sidebar;
+  Devices (+ menu in Cowork) instead of Dispatch; Cowork can be started on the web or phone but runs
+  on your PC through the desktop app. Current models: Opus 5.5, Sonnet 5.5, Haiku 4.5, Fable 5.1.
+
 ## 2026-09-29 · Mascot
 
 - A friendly robot now guides the reader: on the covers of Start here, Level Zero, Level One and
