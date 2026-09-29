@@ -2,6 +2,13 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-29 · Mascot
+
+- A friendly robot now guides the reader: on the covers of Start here, Level Zero, Level One and
+  Choosing the right Claude model, and in the TIP (pointing, green light) and TRAP (warning sign,
+  red light) boxes of every guide, in all four languages. NOTE boxes stay plain on purpose.
+- Mascot images: assets/mascot/.
+
 ## 2026-09-28 · Current model names in Level Zero
 
 - Level Zero (EN / FR / NL / DE): model table now Opus (5.5), Sonnet (5), Haiku (4.5); the snapshot
