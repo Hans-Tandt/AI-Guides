@@ -11,3 +11,6 @@ desktop.ini
 
 # Build scripts: local only (they point at folders on this PC)
 tools/
+
+# Mascot working files (Grok originals, layers, tests): local only
+mascot/
