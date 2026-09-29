@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/mascot/mascot_arms.png" alt="The AI Guides robot, arms crossed" height="200">
+
 # AI Guides
 
 **Free, plain-language guides to AI and Claude, from zero to your first real task.**

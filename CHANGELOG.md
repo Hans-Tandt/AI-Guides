@@ -2,6 +2,15 @@
 
 All notable changes to the guides, newest first.
 
+## 2026-09-29 · Level One 2.3, Start here 1.1, model guide 1.4
+
+- Level One rewritten for the new app (EN / FR / NL / DE): Chat and Cowork in one message box; Web search
+  as a tick in the + menu; Projects in the left sidebar; connectors via the + menu or Customize → Connectors;
+  Scheduled (sidebar or /schedule) and Devices instead of Dispatch; "Record a skill" marked "if you see it".
+- Start here: Cowork explained as the other side of the Chat | Cowork switch.
+- Choosing the right Claude model: Sonnet 5.5 replaces Sonnet 5 (same price, $2 / $10 per million tokens;
+  checked 29 September 2026).
+
 ## 2026-09-29 · Level Zero 3.4: the new Claude app
 
 - Level Zero rewritten for the new app, checked in the app on 29 September 2026 (EN / FR / NL / DE):
